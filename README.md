@@ -5,7 +5,7 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
 
 <br>
 
-<details open>
+<details close>
 <summary><strong>Configuração do Projeto</strong></summary>
 
 ###
