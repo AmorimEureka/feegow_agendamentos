@@ -98,11 +98,8 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
     ```
 <br>
 
----
 
-<br>
-
-### Configuração Projeto Astro:
+## Configuração Projeto Astro:
 
 - *Criando Projeto Astro:*
     ```sh
