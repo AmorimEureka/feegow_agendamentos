@@ -11,7 +11,6 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
 
 ## Criando Esttrutura
 
-<br>
 
 - *Criar projeto:*
     ```sh
@@ -34,7 +33,6 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
 
 ## Instalação das Dependências:
 
-<br>
 
 - *Instalar dependências:*
     ```sh
@@ -46,7 +44,6 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
 
 ## SSH
 
-<br>
 
 - *Gerando uma Chave SSH no Windows:*
     ```sh
@@ -75,7 +72,6 @@ PROJETO DE MANIPULAÇÃO DA API FEEGOW - AGENDAMENTOS
 ## git local:
 
 
-<br>
 
 - *Alterar nome da Branch principal:*
     ```sh
