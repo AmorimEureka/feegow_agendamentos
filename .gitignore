@@ -2,3 +2,9 @@
 secrets.toml
 poetry.lock
 rest_api_pipeline.py
+exercicio.py
+.env
+dag_integrity_exceptions.txt
+test_dag_integrity_default.py
+exampledag.py
+airflow_settings.yaml
