@@ -1,1 +1,4 @@
 .venv
+secrets.toml
+poetry.lock
+rest_api_pipeline.py
