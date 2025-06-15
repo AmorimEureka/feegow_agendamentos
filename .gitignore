@@ -8,3 +8,4 @@ dag_integrity_exceptions.txt
 test_dag_integrity_default.py
 exampledag.py
 airflow_settings.yaml
+tests/dags/test_dag_example.py
