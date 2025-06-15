@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+
+ENV PYTHONUNBUFFERED=1
+
+
+WORKDIR "/app"
+COPY requirements_feegow.txt .
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    libaio1 \
+    libpq-dev \
+    libssl-dev \
+    python3-dev \
+    musl-dev \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN python3 -m venv dlt_venv \
+    && ./dlt_venv/bin/pip install --no-cache-dir --upgrade pip \
+    && ./dlt_venv/bin/pip install --no-cache-dir -r requirements_feegow.txt
+
+ENV PATH="/app/dlt_venv/bin:$PATH"
+
+# Mantém o container rodando
+CMD ["tail", "-f", "/dev/null"]

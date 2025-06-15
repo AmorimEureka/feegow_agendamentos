@@ -1,0 +1,3 @@
+psycopg2-binary
+SQLAlchemy
+dlt[postgres,sql-database]>=1.10.0
